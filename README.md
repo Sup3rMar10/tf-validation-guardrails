@@ -2,7 +2,7 @@
 
 The three places Terraform can stop a bad change, side by side, with a test for each: variable validation, resource preconditions and postconditions, and `check` blocks.
 
-> **What is verified.** The "bucket" is a manifest file written with `hashicorp/local`, so there is no cloud account involved. On 2026-10-17, with Terraform 1.16.5 on Windows, `terraform test` passed 11 of 11 runs. CI repeats this on Linux.
+> **What is verified.** The "bucket" is a manifest file written with `hashicorp/local`, so there is no cloud account involved. On 2026-10-17, with Terraform 1.16.5 on Windows, `terraform test` passed 11 of 11 runs. GitHub Actions (Linux) ran the same commands and passed (2026-10-17).
 
 ## The layers
 
